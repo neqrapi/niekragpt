@@ -11,7 +11,6 @@ return(
         </div>
         <main className="md:pl-72">
             <Navbar/>
-            Main Page
             {children}
         </main>
     </div>
