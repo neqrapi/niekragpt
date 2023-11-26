@@ -11,7 +11,7 @@ const tools = [
     icon:MessageSquare,
     color:'text-violet-500',
     bgColor:'bg-violet-500/10',
-    href:"converation",
+    href:"/conversation",
   },
   {
     label:"Image Generation",
@@ -52,7 +52,7 @@ const DashboardPage = () => {
           Explore the power of AI
         </h2>
         <p className="text-muted-foreground font-light text-sm md:text-lg text-center">
-          Chat with the smartest AI-Expieremce the power of AI
+          Chat with the smartest AI-Expierence the power of AI
         </p>
       </div>
       <div className="px-4 md:px-20 lg:px-32 space-y-4">
