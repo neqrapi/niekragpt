@@ -15,7 +15,10 @@ export const  Empty= ({label}:EmptyProps) => {
                     fill
                     src ="/empty.png" 
                     />
-                </div> 
+                </div>
+                <p className="text-muted-foreground text-sm text-center">
+                    {label}
+                </p> 
             </div>
      );
 }
